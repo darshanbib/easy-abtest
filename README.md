@@ -84,7 +84,7 @@ You can also tie the test to a reporting system, like Google Optimize & Analytic
 
   if abTest.bucket == 0
     button Click here now
-    script.    
+    script.
       gtag('event', abTest.bucket, {
         'event_category': abTest.name,
         'event_label': 'click here now'
@@ -92,7 +92,7 @@ You can also tie the test to a reporting system, like Google Optimize & Analytic
 
   else if abTest.bucket == 1
     button Start today!
-    script.    
+    script.
       gtag('event', abTest.bucket, {
         'event_category': abTest.name,
         'event_label': 'start today'
