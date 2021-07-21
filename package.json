@@ -1,6 +1,6 @@
 {
   "name": "easy-abtest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy and lean a/b testing library that can be used server-side and client-side.",
   "main": "abtest.js",
   "scripts": {
