@@ -83,18 +83,16 @@ You can also tie the test to a reporting system, like Google Optimize & Analytic
   h1 #{headline}
 
   if abTest.bucket == 0
-    button Click here now
-    script.
-      gtag('event', abTest.bucket, {
-        'event_category': abTest.name,
-        'event_label': 'click here now'
-      });
-
+    button#cta Click here now
   else if abTest.bucket == 1
-    button Start today!
-    script.
+    button#cta Start today!
+
+  script.
+    $('#cta').on('click', function() {
       gtag('event', abTest.bucket, {
         'event_category': abTest.name,
         'event_label': 'start today'
       });
+    });
+
 ```
