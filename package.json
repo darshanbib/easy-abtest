@@ -1,7 +1,7 @@
 {
-  "name": "solitaired-abtest",
+  "name": "easy-abtest",
   "version": "1.0.0",
-  "description": "Lean a/b testing library that can be used server-side and client-side.",
+  "description": "Easy and lean a/b testing library that can be used server-side and client-side.",
   "main": "abtest.js",
   "scripts": {
     "test": "mocha"
