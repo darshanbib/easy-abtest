@@ -12,14 +12,14 @@ This is simple server-side ab-testing middleware for use on high traffic Node.JS
 First, install the package.
 
 ```bash
-npm install solitaired-abtest
+npm install easy-abtest
 
 ```
 
 Then add the package to your `app.js` file:
 
 ```js
-const abtest = require('solitaired-abtest');
+const abtest = require('easy-abtest');
 ```
 
 If you use static middleware, set up the module afterwards (otherwise it runs on every static call too).

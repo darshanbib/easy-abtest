@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darshanbib/solitaired-abtest.git"
+    "url": "git+https://github.com/darshanbib/easy-abtest.git"
   },
   "keywords": [
     "abtest",
@@ -17,7 +17,7 @@
   "author": "Darshan Somashekar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darshanbib/solitaired-abtest/issues"
+    "url": "https://github.com/darshanbib/easy-abtest/issues"
   },
   "homepage": "https://solitaired.com/",
   "devDependencies": {
